@@ -1,0 +1,31 @@
+/* .side-crop { 
+    max-width: 600px; 
+    overflow: hidden; 
+    text-indent: -340px;
+}
+.side-crop img { max-width: initial;}  */
+
+.info-container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    /* margin: 70%; */
+}
+
+.bio-container {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bio, .statement {
+    text-align: left;
+    max-width: 30vh;
+}
+
+.headline {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
