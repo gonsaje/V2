@@ -1,5 +1,8 @@
 import React from 'react';
 import './navBar.styles.css';
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import {faUserCircle} from "@fortawesome/free-regular-svg-icons";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 const NavBar = (props) => {
 
@@ -7,10 +10,16 @@ const NavBar = (props) => {
         <div className="nav-bar-container">
             <h1>GENOME.</h1>
             <div className="search-bar">
-                <input type='search' placeholder="search"></input>
-                <button>search.</button>
+                <input type='search' placeholder="EXPLORE."></input>
+                <button>
+                <FontAwesomeIcon icon={faSearch} />
+                <i class="fas fa-search"></i>
+                </button>
             </div>
-            <div>DropDown</div>
+            <div>
+                <FontAwesomeIcon icon={faUserCircle} />
+                <button>sign up</button>
+            </div>
         </div>
     )
 }
