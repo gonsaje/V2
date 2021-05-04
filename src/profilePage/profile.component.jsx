@@ -6,7 +6,7 @@ const Profile = () => {
     <div>
         <div className="info-container">
             <div className='side-crop'>
-                <img src='https://ons-manual.onsclothing.com/wp-content/uploads/2018/05/HablotBrown_03-1024x1024.jpg'></img>
+                <img src={process.env.PUBLIC_URL + '../../public/HablotBrown.png'}></img>
             </div>
             <div className="bio-containter">
                 <div className ="headline">

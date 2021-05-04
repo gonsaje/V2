@@ -19,6 +19,7 @@ const NavBar = (props) => {
                     <ul >
                         <li><FontAwesomeIcon className="dropdown"icon={faDna} /> 
                             <ul className='dropdown-menu'>
+                                <li>Home</li>
                                 <li>Profile</li>
                                 <li>Settings</li>
                                 <li>Sign Up/Log In</li>
