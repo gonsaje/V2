@@ -9,7 +9,7 @@ const NavBar = (props) => {
     return (
         <div className="nav-bar-container">
             <div className="nav-bar">
-                <h1>GENOME.</h1>
+                <h1>GENOME</h1>
                 <div className="menu-icons">
                     {/* <div class="container">
                         <input type="text" placeholder="EXPLORE."/>
